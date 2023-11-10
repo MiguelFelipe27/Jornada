@@ -1,0 +1,325 @@
+<historia titulo="SEJAM BEM-VINDOS">
+    <introducao>
+        No interior do Maranhão, onde os campos verdejantes são palco de histórias de resistência e amor ao campo, vive a família de Mikael e Marilene. Embora a região em que vivem tenha um dos menores índices de desenvolvimento humano do Brasil, esse casal de agricultores tem mostrado que é possível trilhar um caminho de prosperidade e sustentabilidade. Tendo as raízes fincadas em uma tradição agrícola que remonta a gerações passadas, Mikael, Marilene e seus filhos, Bernardo e Pedro, enfrentam os desafios diários do campo com inovação e resiliência. Através de práticas agroecológicas, como o sistema agroflorestal e a horta integrada, eles não só produzem alimentos saudáveis para a sua comunidade, mas também se tornam um símbolo de esperança e inspiração para pequenos agricultores de todo o país. Em "Raízes da Terra: O Renascimento do Campo", embarque em uma jornada pela vida dessa família que, através do suor e da paixão pelo que fazem, provam que o coração do agronegócio brasileiro pulsa forte no pequeno agricultor.
+        Mikael e Marilene, com sua paixão pela terra e dedicação inabalável, são o coração pulsante do agronegócio no interior do Maranhão. Seus dois filhos, Bernardo e Pedro, são a esperança viva de que essa tradição continuará.
+    </introducao>
+    
+    <node1>
+        <escolha id="1" pergunta="Teste" alternativa ="Explorar a jornada de Mikael e Marilene na agricultura." image="Pergunta_01.png">
+            <node2>
+                <escolha id="A1" pergunta="Teste_02" alternativa="Entender o legado da família na agricultura." image="Pergunta_A1.png">
+                    <node3>
+                        <escolha id="A1B1" pergunta="Teste03" alternativa="Descobrir as raízes da família no povoado dos Andradas." > 
+                            <node4>
+                                <escolha id="A1C1" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                    <node5>
+                                        <escolha id="A1D1" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                            <node6>
+                                                <escolha id="A1E1" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="A1F1" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F2" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="A1E2" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="A1F3" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F4" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6>
+                                        </escolha>
+                                        <escolha id="A1D2" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                            <node6>
+                                                <escolha id="A1E3" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="A1F5" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F6" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="A1E4" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="A1F7" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F8" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6> 
+                                        </escolha>
+                                    </node5>
+                                </escolha>
+                                <escolha id="A1C2" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                    <node5>
+                                        <escolha id="A1D3" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                            <node6>
+                                                <escolha id="A1E5" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="A1F9" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F10" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="A1E6" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="A1F11" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F2" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6>
+                                        </escolha>
+                                        <escolha id="A1D4" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                            <node6>
+                                                <escolha id="A1E7" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="A1F13" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F14" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="A1E8" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="A1F15" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F16" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6> 
+                                        </escolha>
+                                    </node5>
+                                </escolha>
+                            </node4>
+                        </escolha>
+                        <escolha id="A1B2" pergunta="Teste03" alternativa="Descobrir as raízes da família no povoado dos Andradas." >
+                            <node4>
+                                <escolha id="A1C3" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                    <node5>
+                                        <escolha id="A1D5" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                            <node6>
+                                                <escolha id="A1E9" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="A1F17" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F18" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="A1E10" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="A1F19" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F20" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6>
+                                        </escolha>
+                                        <escolha id="A1D6" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                            <node6>
+                                                <escolha id="A1E11" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="A1F21" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F22" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="A1E12" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="A1F23" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F24" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6> 
+                                        </escolha>
+                                    </node5>
+                                </escolha>
+                                <escolha id="A1C4" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                    <node5>
+                                        <escolha id="A1D7" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                            <node6>
+                                                <escolha id="A1E13" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="A1F25" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F26" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="A1E14" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="A1F27" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F28" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6>
+                                        </escolha>
+                                        <escolha id="A1D8" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                            <node6>
+                                                <escolha id="A1E15" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="A1F29" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F30" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="A1E16" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="A1F31" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="A1F32" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6> 
+                                        </escolha>
+                                    </node5>
+                                </escolha>
+                            </node4>
+                        </escolha>
+                    </node3>
+                </escolha>
+                <escolha id="B1" pergunta="Teste_02" alternativa="Entender o legado da família na agricultura." image="Pergunta_A1.png">
+                    <node3>
+                        <escolha id="B1B1" pergunta="Teste03" alternativa="Descobrir as raízes da família no povoado dos Andradas." > 
+                            <node4>
+                                <escolha id="B1C1" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                    <node5>
+                                        <escolha id="B1D1" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                            <node6>
+                                                <escolha id="B1E1" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="B1F1" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F2" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="B1E2" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="B1F3" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F4" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6>
+                                        </escolha>
+                                        <escolha id="B1D2" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                            <node6>
+                                                <escolha id="B1E3" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="B1F5" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F6" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="B1E4" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="B1F7" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F8" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6> 
+                                        </escolha>
+                                    </node5>
+                                </escolha>
+                                <escolha id="B1C2" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                    <node5>
+                                        <escolha id="B1D3" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                            <node6>
+                                                <escolha id="B1E5" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="B1F9" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F10" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="B1E6" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="B1F11" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F2" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6>
+                                        </escolha>
+                                        <escolha id="B1D4" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                            <node6>
+                                                <escolha id="B1E7" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="B1F13" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F14" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="B1E8" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="B1F15" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F16" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6> 
+                                        </escolha>
+                                    </node5>
+                                </escolha>
+                            </node4>
+                        </escolha>
+                        <escolha id="B1B2" pergunta="Teste03" alternativa="Descobrir as raízes da família no povoado dos Andradas." >
+                            <node4>
+                                <escolha id="B1C3" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                    <node5>
+                                        <escolha id="B1D5" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                            <node6>
+                                                <escolha id="B1E9" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="B1F17" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F18" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="B1E10" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="B1F19" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F20" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6>
+                                        </escolha>
+                                        <escolha id="B1D6" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                            <node6>
+                                                <escolha id="B1E11" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="B1F21" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F22" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="B1E12" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="B1F23" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F24" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6> 
+                                        </escolha>
+                                    </node5>
+                                </escolha>
+                                <escolha id="B1C4" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                    <node5>
+                                        <escolha id="B1D7" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião."> 
+                                            <node6>
+                                                <escolha id="B1E13" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="B1F25" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F26" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="B1E14" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="B1F27" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F28" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6>
+                                        </escolha>
+                                        <escolha id="B1D8" pergunta="Teste04" alternativa="Conhecer a história da Sociedade dos Trabalhadores e Trabalhadoras Rurais de São Sebastião.">
+                                            <node6>
+                                                <escolha id="B1E15" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."> 
+                                                    <node7>
+                                                        <escolha id="B1F29" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F30" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha>
+                                                <escolha id="B1E16" alternativa="Explorar a relação da família com a Igreja e os recursos para a compra.">
+                                                    <node7>
+                                                        <escolha id="B1F31" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                        <escolha id="B1F32" pergunta="Teste05" alternativa="Aprofundar-se na compra coletiva da terra em 1988."/> <!--Tela Final (Relatorio final)-->
+                                                    </node7>
+                                                </escolha> 
+                                            </node6> 
+                                        </escolha>
+                                    </node5>
+                                </escolha>
+                            </node4>
+                        </escolha>
+                    </node3>
+                </escolha>
+            </node2>
+        </escolha>        
+    </node1>
+</historia>

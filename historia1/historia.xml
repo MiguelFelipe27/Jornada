@@ -1,0 +1,578 @@
+<story title="Raízes da Terra: O Renascimento do Campo">
+    <introduction>
+        No interior do Maranhão, onde os campos verdejantes são palco de histórias de resistência e amor ao campo, vive a família de Mikael e Marilene. Embora a região em que vivem tenha um dos menores índices de desenvolvimento humano do Brasil, esse casal de agricultores tem mostrado que é possível trilhar um caminho de prosperidade e sustentabilidade. Tendo as raízes fincadas em uma tradição agrícola que remonta a gerações passadas, Mikael, Marilene e seus filhos, Bernardo e Pedro, enfrentam os desafios diários do campo com inovação e resiliência. Através de práticas agroecológicas, como o sistema agroflorestal e a horta integrada, eles não só produzem alimentos saudáveis para a sua comunidade, mas também se tornam um símbolo de esperança e inspiração para pequenos agricultores de todo o país. Em "Raízes da Terra: O Renascimento do Campo", embarque em uma jornada pela vida dessa família que, através do suor e da paixão pelo que fazem, provam que o coração do agronegócio brasileiro pulsa forte no pequeno agricultor.
+        Mikael e Marilene, com sua paixão pela terra e dedicação inabalável, são o coração pulsante do agronegócio no interior do Maranhão. Seus dois filhos, Bernardo e Pedro, são a esperança viva de que essa tradição continuará.
+    </introduction>
+    
+    <level1>
+        <choice id="A" pergunta="Veja! Esse terreno é bem grande! E é o seu primeiro terreno para o plantio, então, pense com cuidado sobre como prepara-lo, levando em consideração o aumento dos lucros e a eficiência no uso dos recursos?" description="Plantar no terreno todo" tooltip="Você decide que é mais fácil e rápido desmatar toda a área para ter mais lucros com a plantação." image="Pergunta_01.png">
+            <level2>
+                <choice id="A1" pergunta="Agora é hora de preparar o solo para o plantio, essa é uma parte muito importante para os seus rendimentos, escolha entre plantio direto ou arar o solo antes de plantar. Qual será sua decisão?" description="Plantio direto" tooltip="Você opta pelo método de plantio direto, visando a conservação do solo e a redução da erosão." image="B1.png">
+                    <level3>
+                        <choice id="A1B1" pergunta="O solo está pronto! Você está escolhendo entre a compra de sementes certificadas ou a produção de suas próprias sementes. O que você deseja fazer?" description="Compra de sementes certificadas" tooltip="Você decide comprar sementes certificadas para garantir a qualidade e uniformidade, mesmo que isso implique em custos adicionais." image="">
+                            <level4>
+                                <choice id="A1C1" pergunta="Você está preste a fazer seu primeiro plantio. Mas, antes que o fizesse, um grupo de ambientalistas apresentou um projeto de preservação para a sua fazenda, que pede que você replante uma parte da vegetação tirada no início. Como você aborda esse projeto?" description="Participar do projeto" tooltip="Ao participar do projeto você limita um pouco a expansão da produção e reduz seus lucros, porém, ajuda a preservar a área perdida.">
+                                    <level5>
+                                        <choice id="A1D1" pergunta="Você decidiu plantar milho, porém, está prevista uma onda de calor para a próxima semana. Como você planeja sua estratégia de plantio de milho para garantir o melhor crescimento da cultura, levando em consideração a ameaça da onda de calor?" description="Aumentar frequência de irrigação" tooltip="Você aumentaria a frequência de irrigação para manter o solo úmido durante a onda de calor.">
+                                            <level6>
+                                                <choice id="A1E1" pergunta="Além da onda de calor que estamos enfrentando, começaram a aparecer pragas na suas plantação, mas, há boatos de que um novo pesticida sintético promete erradicar todas elas. O que você deseja fazer?" description="Usar o novo pesticida" tooltip="Você decidirá usar o novo pesticida sintético para erradicar as pragas e proteger sua plantação, em contra partida, ele não trás benefícios ao meio ambiente.">
+                                                    <level7>
+                                                        <resultado id="A1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A1E2" description="Explorar alternativas" tooltip="Você optará por explorar alternativas mais ecológicas para controlar a praga, mesmo que isso exija mais pesquisa e esforço.">
+                                                    <level7>
+                                                        <resultado id="A1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="A1D2" description="Fertilizantes de liberação lenta" tooltip="Você aplicaria fertilizantes de liberação lenta para ajudar as plantas a resistirem ao estresse térmico da onda de calor?">
+                                            <level6>
+                                                <choice id="A1E3" pergunta="Um programa de educação ambiental percebeu a sua proatividade em participar do projeto dos ambientalistas e ofereceu recursos para conscientizar a comunidade local sobre questões ambientais. Como você aborda essa oportunidade?" description="Participar do programa de educação ambiental" tooltip="Você decidirá participar do programa para educar a comunidade local sobre questões ambientais, mesmo que isso exija tempo e recursos.">
+                                                    <level7>
+                                                        <resultado id="A1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A1E4" description="Não participar do programa" tooltip="Você optará por não participar do programa, priorizando suas atividades agrícolas.">
+                                                    <level7>
+                                                        <resultado id="A1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                                <choice id="A1C2" description="Não participarei do projeto" tooltip="Você optará por não participar do projeto para que tenha maior área de produção, assim, aumentará seus lucros.">
+                                    <level5>
+                                        <choice id="A1D3" pergunta="Sua plantação está a todo vapor, porém, você acaba de descobrir há uma infestação de insetos em meio a ela, portanto, precisa decidir sobre a utilização de pesticidas químicos ou insetos predadores naturais para controlar. O que você decidirá?" description="Pesticidas químicos" tooltip="Você decidirá por pesticidas químicos para controlar a infestação de insetos de forma rápida, porém, isso causa alguns impactos ambientais.">
+                                            <level6>
+                                                <choice id="A1E5" pergunta="Naturalmente, sua fazenda está gerando um grande volume de resíduos. Você ouviu dizer que um novo sistema de manejo de resíduos agrícolas ecologicamente correto está disponível. O que você quer fazer?" description="Implementar o novo sistema" tooltip="Você decidirá investir no novo sistema de manejo de resíduos, visando a redução dos impactos ambientais, mesmo que isso tenha um custo inicial.">
+                                                    <level7>
+                                                        <resultado id="A1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A1E6" description="Manter o sistema atual" tooltip="Você escolherá por continuar com o sistema atual de manejo de resíduos, considerando o custo e a complexidade do novo sistema.">
+                                                    <level7>
+                                                        <resultado id="A1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="A1D4" description="Insetos predadores naturais" tooltip="Você optará por introduzir insetos predadores naturais para controlar a infestação, promovendo um equilíbrio ecológico, porém, isso levará mais tempo.">
+                                            <level6>
+                                                <choice id="A1E7" pergunta="Veja! Os insetos foram eliminados e sua plantação está quase em época de colheita. Nesse sentido, alguns agricultores, sugerem que você invista em maquinários com tecnologias mais limpas, já outros, sugerem que você invista em máquinas movidas a combustíveis fosseis. Em qual maquinário você investirá?" description="Máquinas a combustíveis fósseis" tooltip="Você optará por máquinas agrícolas movidas a combustíveis fósseis devido à disponibilidade e ao custo mais baixo, apesar das emissões de carbono.">
+                                                    <level7>
+                                                        <resultado id="A1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A1E8" description="Tecnologias mais limpas" tooltip="Você adotará tecnologias mais limpas, como tratores elétricos ou movidos a biodiesel, porém, isso envolverá custos mais altos.">
+                                                    <level7>
+                                                        <resultado id="A1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                        <choice id="A1B2" description="Produção de suas próprias sementes" tooltip="Você optará por produzir suas próprias sementes para promover a autonomia e a adaptação local, mesmo que isso demande mais tempo e recursos.">
+                            <level4>
+                                <choice id="A1C3" pergunta="Você estava prestes a lançar as sementes no solo. Mas, antes, um programa de conservação da vida selvagem entrou em contato e está oferecendo incentivos para criar habitats naturais na sua fazenda. O que você fará?" description="Participar do programa" tooltip="Você decidirá por criar habitats naturais em sua fazenda para apoiar a vida selvagem, porém, isso implicará em algumas restrições na produção.">
+                                    <level5>
+                                        <choice id="A1D5" pergunta="Veja! As sementes foram lançadas e com a criação de habitats naturais o número de pragas está diminuindo, por conta dos predadores naturais. Mas ainda existem algumas pragas que estão afetando a plantação. Qual abordagem você utilizará?" description="Usar plantas repelentes" tooltip="Você implementará plantas repelentes, que possam eliminar as pragas, evitando o uso de produtos químicos.">
+                                            <level6>
+                                                <choice id="A1E9" pergunta="Você precisa decidir como lidar com os resíduos que estão sendo gerados pela fazenda. Como você aborda essa questão?" description="Descarte convencional" tooltip="Você escolhe descartar as embalagens de fertilizantes e pesticidas de forma convencional, sem considerar a reciclagem ou reutilização.">
+                                                    <level7>
+                                                        <resultado id="A1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A1E10" description="Reciclagem e reutilização" tooltip="Você decide implementar práticas de reciclagem e reutilização das embalagens, visando a redução do impacto ambiental.">
+                                                    <level7>
+                                                        <resultado id="A1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="A1D6" description="Usar pesticidas químicos" tooltip="Você optará por usar pesticidas químicos para eliminar as pragas e proteger suas plantações, apesar dos possíveis impactos ao meio ambiente.">
+                                            <level6>
+                                                <choice id="A1E11" pergunta="Você escolheu usar pesticidas químicos para controlar as pragas, e sua colheita está livre delas, mas você percebeu que isso gerou a contaminação do solo e da água na área. Como você lidará com essa situação?" description="Investir em medidas de descontaminação" tooltip="Você investirá em medidas para descontaminar o solo e a água na área, buscando minimizar os impactos no meio ambiente, porém isso terá um alto investimento.">
+                                                    <level7>
+                                                        <resultado id="A1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A1E12" description="Continuar como está" tooltip="Você optará por ignorar a contaminação e continuar com suas práticas atuais, mesmo sabendo dos impactos ambientais, já que qualquer investimento teria um alto custo.">
+                                                    <level7>
+                                                        <resultado id="A1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                                <choice id="A1C4" description="Não participar do programa"  tooltip="Você escolherá por não participar do programa, priorizando a produção agrícola.">
+                                    <level5>
+                                        <choice id="A1D7" pergunta="Mesmo priorizando a atenção e recursos, sua plantação está indo mal, porque a fazenda enfrenta uma seca prolongada, sendo assim, precisa decidir como lidar com a escassez de água." description="Uso prioritário" tooltip="Você priorizará o uso da água para manter a produção, mas, isso poderá afetar negativamente os recursos hídricos locais.">
+                                            <level6>
+                                                <choice id="A1E13" pergunta="Você ficou sabendo que a poluição da água na sua área está afetando os cursos d'água próximos à fazenda. Como você aborda essa questão?" description="Ignorar a poluição da água" tooltip="Você escolherá ignorar a poluição da água e continuará usando a água local, mesmo sabendo dos riscos para a saúde.">
+                                                    <level7>
+                                                        <resultado id="A1F13" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A1E14" description="Racionamento" tooltip="Você implementará um racionamento rigoroso de água para preservar os recursos hídricos, mesmo que isso reduza a produção.">
+                                                    <level7>
+                                                        <resultado id="A1F14" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="A1D8" description="Racionamento" tooltip="Você implementará um racionamento rigoroso de água para preservar os recursos hídricos, entretanto, isso reduzirá a produção.">
+                                            <level6>
+                                                <choice id="A1E15" pergunta="Você precisa tomar uma decisão para alavancar sua plantação, para isso, usará fertilizantes, porém, as opções são, fertilizantes químicos de alta concentração ou fertilizantes orgânicos de baixa concentração. Qual será sua escolha?" description="Fertilizantes químicos de alta concentração" tooltip="Você decidirá por fertilizantes químicos de alta concentração para obter maiores rendimentos, mesmo sabendo dos riscos ambientais associados.">
+                                                    <level7>
+                                                        <resultado id="A1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A1E16" description="Fertilizantes orgânicos de baixa concentração" tooltip="Você optará por fertilizantes orgânicos de baixa concentração, priorizando a saúde do solo e a sustentabilidade, mesmo que os rendimentos sejam um pouco menores.">
+                                                    <level7>
+                                                        <resultado id="A1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                    </level3>
+                </choice>
+                <choice id="A2" description="Arar o solo" tooltip="Você decide arar o solo antes de plantar, acreditando que isso resultará em melhores rendimentos, apesar do impacto no solo.">
+                    <level3>
+                        <choice id="A2B1" pergunta="Agora é o momento de traçar uma estratégia para o plantio do ano. Você pretende colocar em prática a rotação de culturas ou então, manterá uma mesma cultura durante todo o ano?" description="Manter o mesmo cultivo durante o ano" tooltip="Você decide continuar com o mesmo cultivo anual, considerando-o mais simples, apesar dos riscos de degradação do solo." image="">
+                            <level4>
+                                <choice id="A2C1" pergunta="Você acaba de plantar as sementes e já se depara com uma dificuldade. Aparecem as primeiras pragas, como você deseja combate-las?" description="Manejo integrado de pragas" tooltip="Você optará por adotar técnicas de manejo integrado de pragas, buscando controlar as pragas de forma mais sustentável, sem a pulverização, mesmo que isso exija maior planejamento.">
+                                    <level5>
+                                        <choice id="A2D1" pergunta="Com a retirada de toda a vegetação nativa, as áreas úmidas da fazenda foram afetadas, nesse sentido, um programa de recuperação de áreas úmidas oferece apoio para restaurar ecossistemas aquáticos em sua fazenda. Como você aborda essa oferta?" description="Não participar do programa" tooltip="Você opta por não participar do programa, mesmo que auxilie o meio ambiente as comunidades vizinhas, isso geraria um alto custo para você.">
+                                            <level6>
+                                                <choice id="A2E1" pergunta="Qual estratégia você planeja estratégia para garantir o melhor crescimento da plantação?" description="Fertilizantes químicos de alta concentração" tooltip="Você decidirá por fertilizantes químicos de alta concentração para obter maiores rendimentos, mesmo sabendo dos riscos ambientais associados.">
+                                                    <level7>
+                                                        <resultado id="A2F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A2E2" description="Fertilizantes orgânicos de baixa concentração" tooltip="Você optará por fertilizantes orgânicos de baixa concentração, priorizando a saúde do solo e a sustentabilidade, mesmo que os rendimentos sejam um pouco menores.">
+                                                    <level7>
+                                                        <resultado id="A2F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="A2D2" description="Participar do programa de recuperação" tooltip="Você participará do programa de recuperação de áreas úmidas, contribuindo para a restauração de ecossistemas aquáticos, mesmo que isso envolve deslocar algumas áreas de cultivo.">
+                                            <level6>
+                                                <choice id="A2E3" pergunta="O programa deu certo, e vendo sua empenho e engajamento com o projeto, apresentaram uma nova proposta para você, ofereceram recursos para que você pudesse ajudar a conscientizar as comunidades locais sobre questões ambientais. Como você aborda essa oportunidade?" description="Participar do programa de educação ambiental" tooltip="Você decidirá participar do programa para educar a comunidade local sobre questões ambientais, mesmo que isso exija tempo e recursos.">
+                                                    <level7>
+                                                        <resultado id="A2F3" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A2E4" description="Não participar do programa" tooltip="Você optará por não participar do programa, priorizando suas atividades agrícolas.">
+                                                    <level7>
+                                                        <resultado id="A2F4" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                                <choice id="A2C2" description="Pulverização regular de pesticidas" tooltip="Você fará a pulverização regular de pesticidas, considerando-a mais conveniente, apesar dos impactos ambientais.">
+                                    <level5>
+                                        <choice id="A2D3" pergunta="Essa escolha de controle, livrou sua plantação das pragas, mas parece que isso gerou a contaminação do solo e da água na área. Como você lidará com essa situação?" description="Investir em medidas de descontaminação" tooltip="Você investirá em medidas para descontaminar o solo e a água na área, buscando minimizar os impactos no meio ambiente, porém isso terá um alto investimento.">
+                                            <level6>
+                                                <choice id="A2E5" pergunta="Vendo seu comprometimento com as boa práticas agricolas, um programa de conservação da vida selvagem entrou em contato e está oferecendo incentivos para criar habitats naturais na sua fazenda. O que você fará?" description="Participar do programa" tooltip="Você decidirá por criar habitats naturais em sua fazenda para apoiar a vida selvagem, porém, isso implicará em algumas restrições na produção.">
+                                                    <level7>
+                                                        <resultado id="A2F5" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A2E6" description="Não participar do programa" tooltip="Você escolherá por não participar do programa, priorizando a produção agrícola.">
+                                                    <level7>
+                                                        <resultado id="A2F6" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="A2D4" description="Continuar como está" tooltip="Você optará por ignorar a contaminação e continuar com suas práticas atuais, mesmo sabendo dos impactos ambientais, já que qualquer investimento teria um alto custo.">
+                                            <level6>
+                                                <choice id="A2E7" pergunta="Vendo que sua fazenda perdeu a vegetação nativa, um programa de preservação da biodiversidade oferece incentivos para criar áreas de proteção ambiental em sua fazenda. O que você fará em relação a essa proposta?" description="Criar áreas de proteção ambiental" tooltip="Você criará áreas de proteção ambiental em sua fazenda para preservar a biodiversidade e, assim, auxiliar no controle de pragas, mesmo que isso restrinja parte das terras agrícolas.">
+                                                    <level7>
+                                                        <resultado id="A2F7" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A2E8" description="Não criar áreas de proteção" tooltip="Você optará por não criar áreas de proteção, priorizando a produção agrícola em toda a extensão da fazenda, mesmo que isso continue prejudicando a biodiversidade.">
+                                                    <level7>
+                                                        <resultado id="A2F8" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                        <choice id="A2B2" description="Implementar rotação de culturas" tooltip="Você optará por implementar práticas de rotação de culturas para melhorar a saúde do solo e reduzir a exposição a pragas, mesmo que isso exige mais planejamento.">
+                            <level4>
+                                <choice id="A2C3" pergunta="As sementes já foram lançadas, dessa forma, agora, é o momento de você pensar em um sistema de irrigação. Você ouvir dizer que um novo sistema de irrigação de alta tecnologia está disponível no mercado. O que você fará em relação a isso?" description="Manter sistema atual" tooltip="Você opta por continuar com o sistema de irrigação atual, considerando o alto custo do novo sistema e seus impactos financeiros.">
+                                    <level5>
+                                        <choice id="A2D5" pergunta="Vendo que sua fazenda está produzindo bastantes resíduos orgânicos, uma empresa de biogás propõe a instalação de biodigestores em sua fazenda para produzir energia a partir dos resíduos orgânicos. Como você aborda essa oferta?" description="Instalar biodigestores" tooltip="Você decide instalar biodigestores para produzir energia a partir dos resíduos orgânicos, buscando uma fonte de energia sustentável e uma renda adicional.">
+                                            <level6>
+                                                <choice id="A2E9" pergunta="Os biodigestores estão funcionando bem e estão fazendo você economizar mais energia. Empolgado com essa economia, está pensando em implementar placas solares. O que você fará?" description="Implementar placas solares" tooltip="Você investirá em um sistema de energia solar, reduzindo os custos de energia, porém, o solo será desgastado e não será mais possível plantar nele.">
+                                                    <level7>
+                                                        <resultado id="A2F9" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A2E10" description="Não implementar placas solares" tooltip="Você não investirá em energia solar e continuará usando energia convencional, devido ao custo inicial elevado e ao degaste que provoca no solo.">
+                                                    <level7>
+                                                        <resultado id="A2F10" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="A2D6" description="Recusar a oferta" tooltip="Você opta por recusar a oferta de instalar biodigestores, preocupado com os custos e os potenciais impactos na fazenda.">
+                                            <level6>
+                                                <choice id="A2E11" pergunta="Recusando a oferta você teve mais tempo para se dedicar a plantação, percebendo que ela não está se desenvolvendo tão bem e decide usar fertilizantes, qual você usará, fertilizantes químicos de alta concentração ou fertilizantes orgânicos de baixa concentração?" description="Fertilizantes químicos de alta concentração" tooltip="Você decidirá por fertilizantes químicos de alta concentração para obter maiores rendimentos, mesmo sabendo dos riscos ambientais associados.">
+                                                    <level7>
+                                                        <resultado id="A2F11" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A2E12" description="Fertilizantes orgânicos de baixa concentração" tooltip="Você optará por fertilizantes orgânicos de baixa concentração, priorizando a saúde do solo e a sustentabilidade, mesmo que os rendimentos sejam um pouco menores.">
+                                                    <level7>
+                                                        <resultado id="A2F12" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                                <choice id="A2C4" description="Investir em tecnologia" tooltip="Você decide investir no sistema de irrigação de alta tecnologia, sistema de irrigação por sensores de umidade, para aumentar a eficiência, mesmo que isso tenha um alto custo inicial.">
+                                    <level5>
+                                        <choice id="A2D7" pergunta="Sua plantação está a todo vapor! Porém, precisa lidar com os resíduos que estão sendo produzidos. Como você fará o descarte?" description="Descarte convencional" tooltip="Você escolhe descartar os resíduos de forma convencional, sem considerar a reciclagem ou o tratamento adequado.">
+                                            <level6>
+                                                <choice id="A2E13" pergunta="Vendo que sua fazenda perdeu a vegetação nativa, um programa de preservação da biodiversidade oferece incentivos para criar áreas de proteção ambiental em sua fazenda. O que você fará em relação a essa proposta?" description="Criar áreas de proteção ambiental" tooltip=" Você criará áreas de proteção ambiental em sua fazenda para preservar a biodiversidade e, assim, auxiliar no controle de pragas, mesmo que isso restrinja parte das terras agrícolas.">
+                                                    <level7>
+                                                        <resultado id="A2F13" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A2E14" description="Não criar áreas de proteção" tooltip="Você optará por não criar áreas de proteção, priorizando a produção agrícola em toda a extensão da fazenda, mesmo que isso continue prejudicando a biodiversidade.">
+                                                    <level7>
+                                                        <resultado id="A2F14" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="A2D8" description="Reciclagem e tratamento adequado" tooltip="Você decide implementar práticas de reciclagem e tratamento adequado dos resíduos, visando a redução do impacto ambiental.">
+                                            <level6>
+                                                <choice id="A2E15" pergunta="Você percebe que a expansão inicial da área de produção está levando à degradação de áreas naturais próximas à sua fazenda. Diante disso, o que você fará?" description="Reflorestar uma parte" tooltip="Você decidirá reflorestar uma parte da fazenda, assim, estará diminuindo os danos causados.">
+                                                    <level7>
+                                                        <resultado id="A2F15" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="A2E16" description="Esperar a colheita" tooltip="Você optará por esperar até a primeira colheita, para não perder a boa parte dos lucros, mesmo que isso cause danos ambientais e a seus vizinhos.">
+                                                    <level7>
+                                                        <resultado id="A2F16" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                    </level3>
+                </choice>
+            </level2>
+        </choice>        
+        
+        <choice id="B" description="Plantar apenas em uma parte" tooltip="Você escolhe preservar a maior parte da vegetação, desmatando apenas o necessário, com isso você não terá lucro muito alto.">
+            <level2>
+                <choice id="B1" pergunta="Uma ONG oferece assistência técnica para implementar práticas de agricultura sustentável em sua fazenda. Como você aborda essa oferta?" description="Aceitar assistência técnica" tooltip="Você decide aceitar a assistência técnica da ONG para implementar práticas de agricultura sustentável, mesmo que isso exija tempo e adaptações na fazenda." image="B1.png">
+                    <level3>
+                        <choice id="B1B1" pergunta="Você percebe que há um aumento na demanda por produtos orgânicos. O que você decide fazer?" description="Utilizar práticas orgânicos" tooltip="Você opta pela agricultura orgânica, seguindo as práticas mais sustentáveis, mesmo que isso leve tempo e recursos." image="">
+                            <level4>
+                                <choice id="B1C1" pergunta="Um fornecedor oferece sementes geneticamente modificadas para aumentar a produtividade. Como você aborda essa oferta?" description="Sementes geneticamente modificadas" tooltip="Você decide usar as sementes geneticamente modificadas para aumentar a produtividade imediatamente.">
+                                    <level5>
+                                        <choice id="B1D1" pergunta="Um programa de reflorestamento oferece incentivos para plantar árvores em áreas não utilizadas de sua fazenda. Como você decide participar?" description="Participar do programa de reflorestamento" tooltip="Você decide plantar árvores em áreas não utilizadas da fazenda, contribuindo para a conservação ambiental e obtendo incentivos financeiros.">
+                                            <level6>
+                                                <choice id="B1E1" pergunta="Você precisa decidir como lidar com os resíduos de embalagens de fertilizantes e pesticidas. Como você aborda essa questão?" description="Descarte convencional" tooltip="Você escolhe descartar as embalagens de fertilizantes e pesticidas de forma convencional, sem considerar a reciclagem ou reutilização.">
+                                                    <level7>
+                                                        <resultado id="B1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B1E2" description="Reciclagem e reutilização" tooltip="Você decide implementar práticas de reciclagem e reutilização das embalagens, visando a redução do impacto ambiental.">
+                                                    <level7>
+                                                        <resultado id="B1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="B1D2" description="Não participar do programa" tooltip="Você opta por não participar do programa de reflorestamento, priorizando o uso agrícola das terras.">
+                                            <level6>
+                                                <choice id="B1E3" pergunta="Um programa de reflorestamento urbano oferece suporte para plantar árvores na área circundante à sua fazenda. Como você aborda essa oportunidade?" description="Participar do programa de reflorestamento" tooltip="Você decide participar do programa de reflorestamento urbano, contribuindo para a melhoria do ambiente local, mesmo que isso demande recursos adicionais.">
+                                                    <level7>
+                                                        <resultado id="B1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B1E4" description="Não participar do programa" tooltip="Você opta por não participar do programa, priorizando as atividades agrícolas.">
+                                                    <level7>
+                                                        <resultado id="B1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                                <choice id="B1C2" description="Sementes convencionais."  tooltip="Você opta por sementes convencionais, mantendo-se fiel à agricultura tradicional.">
+                                    <level5>
+                                        <choice id="B1D3" pergunta="Um agricultor está considerando como lidar com resíduos orgânicos. Ele pode escolher entre compostar os resíduos para enriquecer o solo ou queimá-los para uma eliminação rápida. Qual abordagem você acha mais criativa na gestão de resíduos orgânicos?" description="Compostagem para enriquecer o solo" tooltip="Compostar os resíduos para enriquecer o solo e promover a fertilidade.">
+                                            <level6>
+                                                <choice id="B1E5" pergunta="Em uma comunidade agrícola, os agricultores estão explorando maneiras de reduzir o desperdício de alimentos. Alguns propõem a criação de bancos de alimentos locais para doar produtos não vendidos, enquanto outros defendem a implementação de práticas agroecológicas que reduzem a perda de colheitas. Qual dessas abordagens você acha mais criativa para combater o desperdício de alimentos?" description="" tooltip="">
+                                                    <level7>
+                                                        <resultado id="B1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B1E6" description="" tooltip="">
+                                                    <level7>
+                                                        <resultado id="B1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="B1D4" description="Queimar resíduos com emissões de carbono" tooltip="Queimar os resíduos para uma eliminação rápida, mesmo que isso cause emissões de carbono.">
+                                            <level6>
+                                                <choice id="B1E7" pergunta="Um programa de restauração de áreas úmidas oferece incentivos para criar áreas de conservação aquática em sua fazenda. Como você aborda essa oportunidade?" description="Criar áreas de conservação aquática" tooltip="Você decide criar áreas de conservação aquática em sua fazenda, contribuindo para a preservação de ecossistemas aquáticos, mesmo que isso restrinja parte das terras agrícolas.">
+                                                    <level7>
+                                                        <resultado id="B1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B1E8" description="Não criar áreas de conservação" tooltip="Você opta por não criar áreas de conservação, priorizando a produção agrícola sobre a conservação ambiental.">
+                                                    <level7>
+                                                        <resultado id="B1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                        <choice id="B1B2" description="Utilizar práticas convencionais" tooltip="Você escolhe as práticas agrícolas convencionais, considerando a estabilidade financeira no curto prazo.">
+                            <level4>
+                                <choice id="B1C3" pergunta="Um produtor de alimentos está enfrentando desafios relacionados à erosão do solo em sua fazenda. Ele pode optar por construir estruturas de contenção, como diques e barragens, para evitar a erosão, ou adotar métodos agroecológicos, como o cultivo de plantas de raízes profundas para estabilizar o solo. Qual abordagem você acha mais criativa para combater a erosão?" description="Estruturas caras contra erosão" tooltip="Construir estruturas de contenção para evitar a erosão do solo, mesmo que isso exija investimentos significativos.">
+                                    <level5>
+                                        <choice id="B1D5" pergunta="Enquanto implementa práticas agroecológicas em sua fazenda, você se depara com um aumento na demanda por seus produtos por parte de consumidores conscientes. Como você planeja atender a essa demanda?" description="Expansão da produção agroecológica" tooltip="Empolgado com a crescente demanda, você decide expandir a produção de alimentos agroecológicos para atender aos consumidores conscientes.">
+                                            <level6>
+                                                <choice id="B1E9" pergunta="Você percebe que a erosão do solo está se agravando devido às chuvas fortes. Como você aborda essa questão?" description="Manter práticas atuais" tooltip="Você decide continuar com as práticas agrícolas atuais, mesmo que isso aumente o risco de erosão.">
+                                                    <level7>
+                                                        <resultado id="B1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B1E10" description="Implementar medidas de controle de erosão" tooltip="Você opta por implementar medidas de controle de erosão, como terraços e plantio em nível, visando a conservação do solo, mesmo que isso demande tempo e recursos.">
+                                                    <level7>
+                                                        <resultado id="B1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="B1D6" description="Manter o foco na produção convencional" tooltip="Apesar do aumento na demanda, você opta por manter o foco na produção convencional, visando a estabilidade financeira.">
+                                            <level6>
+                                                <choice id="B1E11" pergunta="Enquanto você implementa práticas de cultivo de cobertura e restauração do solo em sua fazenda, você percebe uma melhoria na retenção de água e na resistência às secas. Como você pretende aproveitar essa mudança para melhorar a sustentabilidade de sua fazenda?" description="Compartilhar conhecimento com outros agricultores" tooltip="Motivado pela melhoria da retenção de água, você decide compartilhar suas experiências e conhecimentos com outros agricultores, promovendo práticas de cultivo de cobertura em toda a região.">
+                                                    <level7>
+                                                        <resultado id="B1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B1E12" description="Foco na expansão da produção" tooltip="Você opta por usar a melhoria na retenção de água para expandir sua produção atual, maximizando os lucros e a sustentabilidade financeira.">
+                                                    <level7>
+                                                        <resultado id="B1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                                <choice id="B1C4" description="Cultivo de raízes profundas para estabilizar o solo"  tooltip="Adotar métodos agroecológicos inovadores, como o cultivo de plantas de raízes profundas, para estabilizar o solo de forma sustentável.">
+                                    <level5>
+                                        <choice id="B1D7" pergunta="Um projeto(definir) de conservação de solos oferece apoio para implementar práticas de conservação em sua fazenda. Como você aborda essa oferta?" description="Participar do projeto de conservação" tooltip=" Você decide aderir ao projeto de conservação de solos, implementando práticas para reduzir a erosão e melhorar a saúde do solo, mesmo que isso demande tempo e recursos.">
+                                            <level6>
+                                                <choice id="B1E13" pergunta="Um novo sistema de irrigação por gotejamento de alta eficiência está disponível no mercado. Como você decide se deve investir nessa tecnologia?" description="Investir no sistema de irrigação por gotejamento" tooltip="Você decide investir no novo sistema de irrigação por gotejamento de alta eficiência para economizar água e aumentar a eficiência, mesmo que isso tenha um custo inicial mais elevado.">
+                                                    <level7>
+                                                        <resultado id="B1F13" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B1E14" description="Manter sistema atual" tooltip=" Você opta por continuar com o sistema de irrigação atual, considerando o alto custo do novo sistema e seus impactos financeiros.">
+                                                    <level7>
+                                                        <resultado id="B1F14" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="B1D8" description="Não participar do projeto" tooltip="Você opta por não participar do projeto de conservação, priorizando a produção agrícola sem considerar os benefícios da conservação do solo.">
+                                            <level6>
+                                                <choice id="B1E15" pergunta="Um projeto de energia solar oferece a oportunidade de instalar painéis solares em sua fazenda. Como você aborda essa decisão?" description="Instalar painéis solares" tooltip="Você decide instalar painéis solares para gerar energia renovável, reduzir os custos de energia e diminuir a pegada de carbono da fazenda, mesmo que isso tenha um custo inicial mais elevado.">
+                                                    <level7>
+                                                        <resultado id="B1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B1E16" description="Não instalar painéis solares" tooltip="Você opta por não instalar painéis solares, considerando o investimento inicial alto ou outras preocupações que possam ter prioridade sobre a energia solar.">
+                                                    <level7>
+                                                        <resultado id="B1F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                    </level3>
+                </choice>
+                <choice id="B2" description="Recusar a assistência técnica" tooltip="Você opta por recusar a oferta da ONG, priorizando a independência na gestão da fazenda." >
+                    <level3>
+                        <choice id="B2B1" pergunta="Você precisa decidir como fará o descarte dos resíduos que sua fazenda gerará. Como você pretende lidar com os resíduos?" description="Descarte convencional" tooltip="Você escolhe descartar os resíduos de maneira convencional, sem considerar a reciclagem ou compostagem." image="">
+                            <level4>
+                                <choice id="B2C1" pergunta="Ao selecionar sementes para o plantio, você está escolhendo entre variedades geneticamente modificadas (GM) que podem aumentar o rendimento ou sementes tradicionais não modificadas. Como você aborda essa escolha?" description="Sementes GM" tooltip="Você opta por sementes geneticamente modificadas para potencialmente obter maiores rendimentos, mesmo ciente das preocupações sobre a segurança e o impacto ambiental.">
+                                    <level5>
+                                        <choice id="B2D1" pergunta="" description="" tooltip="">
+                                            <level6>
+                                                <choice id="B2E1" pergunta="Um programa de educação ambiental oferece recursos para conscientizar os jovens da comunidade sobre a importância da agricultura sustentável. Como você aborda essa oportunidade?" description="Participar do programa de educação ambiental para jovens" tooltip="Você decide participar do programa para educar os jovens da comunidade sobre práticas agrícolas sustentáveis, mesmo que isso demande tempo e recursos.">
+                                                    <level7>
+                                                        <resultado id="B2F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B2E2" description="Não participar do programa para jovens" tooltip="Você opta por não participar do programa, considerando-o desnecessário ou não prioritário.">
+                                                    <level7>
+                                                        <resultado id="B2F2" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="B2D2" description="Fertilizantes de liberação lenta" tooltip="">
+                                            <level6>
+                                                <choice id="B2E3" pergunta="Você precisa decidir como lidar com a erosão do solo em sua fazenda. Como você aborda essa questão?" description="Ignorar a erosão" tooltip="Você escolhe ignorar a erosão do solo e continuar as práticas agrícolas atuais, mesmo que isso signifique perdas de solo fértil.">
+                                                    <level7>
+                                                        <resultado id="B2F3" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B2E4" description="Implementar medidas de controle de erosão" tooltip="Você decide implementar medidas para controlar a erosão, como plantio em nível e construção de terraços, visando a preservação do solo.">
+                                                    <level7>
+                                                        <resultado id="B2F4" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                                <choice id="B2C2" description="Sementes tradicionais não modificadas" tooltip="Você escolhe sementes tradicionais não modificadas, priorizando a conservação da diversidade genética e evitando os riscos associados às sementes GM.">
+                                    <level5>
+                                        <choice id="B2D3" pergunta="Os preços dos fertilizantes químicos estão em queda, e você precisa escolher entre fertilizantes orgânicos e químicos. Como você aborda essa decisão?" description="Fertilizantes químicos" tooltip="Você decide usar fertilizantes químicos devido ao menor custo imediato.">
+                                            <level6>
+                                                <choice id="B2E5" pergunta="Como um produtor agroecológico, você está preocupado com a saúde do solo e a redução de resíduos. Que abordagem criativa você escolheria para reciclar os resíduos da fazenda e enriquecer o solo?" description="Compostagem avançada para enriquecer o solo" tooltip="Implementar um sistema de compostagem avançado usando tecnologias modernas para transformar resíduos orgânicos em composto rico.">
+                                                    <level7>
+                                                        <resultado id="B2F5" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B2E6" description="Agrofloresta para melhoria natural do solo" tooltip="Criar um sistema de agrofloresta na fazenda, onde plantas de cobertura e árvores melhoram o solo naturalmente.">
+                                                    <level7>
+                                                        <resultado id="B2F6" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="B2D4" description="Fertilizantes orgânicos" tooltip="Você escolhe fertilizantes orgânicos, pensando a longo prazo na saúde do solo e na sustentabilidade da fazenda.">
+                                            <level6>
+                                                <choice id="B2E7" pergunta="Um programa de conservação de recursos hídricos oferece assistência técnica para melhorar a gestão da água em sua fazenda. Como você aborda essa oferta?" description="Aceitar assistência técnica" tooltip="Você decide aceitar a assistência técnica do programa para melhorar a gestão da água em sua fazenda, mesmo que isso envolve mudanças e investimentos.">
+                                                    <level7>
+                                                        <resultado id="B2F7" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B2E8" description="Recusar a assistência técnica" tooltip="Você opta por recusar a oferta de assistência técnica, considerando-a desnecessária e custosa.">
+                                                    <level7>
+                                                        <resultado id="B2F8" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                        <choice id="B2B2" description="Reciclagem e compostagem" tooltip="Você decide implementar práticas de reciclagem e compostagem para reduzir o desperdício e contribuir para a sustentabilidade.">
+                            <level4>
+                                <choice id="B2C3" pergunta="Ao perceber que a biodiversidade em sua fazenda está aumentando devido à implementação de práticas agroecológicas, como você planeja equilibrar a produção agrícola com a conservação da vida selvagem?" description="Desenvolvimento de corredores de biodiversidade" tooltip="Motivado pelo aumento da biodiversidade, você decide criar corredores de biodiversidade e áreas de conservação para promover a coexistência entre a produção agrícola e a vida selvagem.">
+                                    <level5>
+                                        <choice id="B2D5" pergunta="Você se depara com a escolha de usar pesticidas de amplo espectro ou pesticidas específicos para controlar uma infestação de insetos em suas culturas. Como você decide qual abordagem adotar?" description="Pesticidas de amplo espectro" tooltip="Você opta por usar pesticidas de amplo espectro para controlar a infestação de insetos de forma abrangente, mesmo que isso tenha impactos no meio ambiente.">
+                                            <level6>
+                                                <choice id="B2E9" pergunta="Enquanto implementa práticas de conservação de água em sua fazenda, você observa que a qualidade da água nos riachos adjacentes melhora consideravelmente. Como você planeja utilizar essa água mais limpa de maneira criativa?" description="Geração sustentável de energia com água dos riachos" tooltip="Usar a água mais limpa dos riachos para gerar energia sustentável, implementando um sistema de microgeração hidroelétrica na fazenda.">
+                                                    <level7>
+                                                        <resultado id="B2F9" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B2E10" description="Fornecimento de água potável à comunidade" tooltip="Montar um sistema de filtração e purificação da água para fornecer água potável de alta qualidade para a comunidade local, contribuindo para a saúde e o bem-estar da população.">
+                                                    <level7>
+                                                        <resultado id="B2F10" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="B2D6" description="Pesticidas específicos" tooltip="Você decide utilizar pesticidas específicos, minimizando os riscos ambientais e à saúde, mesmo que isso exija mais pesquisa e seleção criteriosa.">
+                                            <level6>
+                                                <choice id="B2E11" pergunta="Um programa de conservação da vida selvagem oferece incentivos para criar corredores ecológicos em sua fazenda. Como você aborda essa oportunidade?" description="Criar corredores ecológicos" tooltip="Você decide criar corredores ecológicos em sua fazenda para apoiar a vida selvagem, mesmo que isso restrinja parte das terras agrícolas.">
+                                                    <level7>
+                                                        <resultado id="B2F11" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B2E12" description="Não criar corredores" tooltip="Você opta por não criar corredores ecológicos, priorizando a produção agrícola sem considerar a conservação da vida selvagem.">
+                                                    <level7>
+                                                        <resultado id="B2F12" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                                <choice id="B2C4" description="Manter as práticas atuais"  tooltip="Apesar do aumento da biodiversidade, você opta por manter as práticas agrícolas atuais, com foco na produtividade, sem fazer mudanças significativas.">
+                                    <level5>
+                                        <choice id="B2D7" pergunta="Você se depara com a escolha de usar adubos químicos ou esterco animal como fertilizantes. Como você decide qual tipo de fertilizante usar?" description="Adubos químicos" tooltip=" Você opta por usar adubos químicos, buscando resultados imediatos, mesmo que isso envolva produtos químicos sintéticos.">
+                                            <level6>
+                                                <choice id="B2E13" pergunta="Um programa de reciclagem de resíduos agrícolas oferece assistência para transformar resíduos em fertilizantes orgânicos. Como você aborda essa oferta?" description="Participar do programa de reciclagem" tooltip="Você decide participar do programa para reciclar resíduos agrícolas em fertilizantes orgânicos, mesmo que isso envolva esforço adicional.">
+                                                    <level7>
+                                                        <resultado id="B2F13" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B2E14" description="Não participar do programa" tooltip="Você opta por não participar do programa de reciclagem, considerando-o desnecessário ou complexo.">
+                                                    <level7>
+                                                        <resultado id="B2F14" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                        <choice id="B2D8" description="Esterco animal" tooltip="Você escolhe usar esterco animal como fertilizante, promovendo práticas mais naturais e sustentáveis, mesmo que isso demande mais trabalho.">
+                                            <level6>
+                                                <choice id="B2E15" pergunta="Em uma comunidade agrícola, os agricultores estão debatendo como tornar a agricultura mais atraente para os jovens. Alguns propõem hackathons agrícolas que incentivam a inovação e o empreendedorismo, enquanto outros sugerem a criação de escolas ao ar livre onde os jovens aprendem sobre agricultura diretamente na fazenda. Qual dessas abordagens você acha mais criativa para envolver a próxima geração na agricultura sustentável?" description="Hackathons agrícolas inovadores" tooltip="Realizar hackathons agrícolas que desafiam os jovens a encontrar soluções criativas para os desafios da agricultura sustentável.">
+                                                    <level7>
+                                                        <resultado id="B2F15" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                                <choice id="B2E16" description="Escolas ao ar livre com aprendizado prático na fazendas" tooltip="Criar escolas ao ar livre onde os jovens têm a oportunidade de aprender sobre agricultura diretamente na fazenda, combinando educação prática com experiências no campo.">
+                                                    <level7>
+                                                        <resultado id="B2F16" resposta="resultado" image = "Pergunta_01.png"/>
+                                                    </level7>
+                                                </choice>
+                                            </level6>
+                                        </choice>
+                                    </level5>
+                                </choice>
+                            </level4>
+                        </choice>
+                    </level3>
+                </choice>
+            </level2>
+        </choice>
+    </level1>
+</story>

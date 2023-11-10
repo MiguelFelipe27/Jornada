@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor de História</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>    
+</head>
+
+<body>
+    <div id="story-container">
+        <h1></h1>
+        <p id="introduction"></p>
+        <!--<div id="choice-history">
+            <h2>Escolhas:</h2>
+            <ul></ul>
+        </div>
+        <div id="choice-id-history">
+            <h2>IDs das escolhas</h2>
+            <ul></ul>
+        </div>-->
+        <div id="perguntas"></div>
+        <div id="imagem"></div>
+        <div id="choices"></div>
+        
+        <div id="imagem_result"></div>
+        <div id="resultado"></div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+    </div>
+</body>
+</html>
