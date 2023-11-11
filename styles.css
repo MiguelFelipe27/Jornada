@@ -5,6 +5,10 @@ body {
     text-align: center;
     margin: 10px;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 
 #story-container {
     background-color: #94dbfc;
