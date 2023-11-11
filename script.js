@@ -22,9 +22,11 @@ O DOMContentLoaded serve para carrgar página HTML inteira, sem esperar que term
 function displayApresentacao(xml) {
     const title = xml.querySelector('story').getAttribute('title');
     const introduction = xml.querySelector('introduction').textContent;
+    const sub = xml.querySelector('subtitulo').textContent;
 
     document.querySelector('h1').textContent = title;
     document.getElementById('introduction').textContent = introduction;
+    document.getElementById('subtitulo').textContent = sub;
 }
 
 function displayHistoria(node)

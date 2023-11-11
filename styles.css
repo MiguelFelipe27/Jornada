@@ -1,60 +1,58 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #9de0ff;
-    padding: 20px;
+body
+{
     text-align: center;
-    margin: 10px;
+    background-color: aliceblue;
 }
+
+#story-container
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    padding: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;    
+}
+
+#title
+{
+    font-size: 50px;
+}
+
+#subtitulo
+{
+    font-size: 40px;
+}
+
 html
 {
     scroll-behavior: smooth;
 }
 
-#story-container {
-    background-color: #94dbfc;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-}
-
-#choices {
+#choices
+{
     margin-top: 20px;
 }
 
 button {
-    padding: 10px 15px;
+    padding: 15px 20px;
     margin-right: 10px;
     margin-top: 10px;
     border: none;
-    background-color: #007BFF;
+    background-color: rgb(0, 105, 0);
     color: #fff;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-#choice-history h2 {
-    margin-bottom: 10px;
-}
-
-#choice-history ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
 img {
     max-width: 1000px;  /* Define um tamanho máximo para a imagem */
     /*border-radius: 8px;  /* Arredonda os cantos da imagem */
     /*box-shadow: 2px 2px 12px rgba(0,0,0,0.1);  /* Adiciona uma leve sombra à imagem */
-}
-
-#tooltip {
-    position: absolute;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    padding: 10px;
-    display: none;
 }
