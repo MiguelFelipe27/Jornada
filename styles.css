@@ -1,10 +1,10 @@
 body {
-    background-image: linear-gradient(#FCFCE7, #fcfff0, #D8EEDA);
+    background-image: linear-gradient(#FCFCE7, #e5e7dc, #c9e7cc);
 }
 
 #story-container {
     font-family: 'Montserrat', sans-serif;
-    background: white;
+    background: rgba(255, 255, 255, 0.486);
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
