@@ -8,7 +8,7 @@
     </introduction>
     
     <level1>
-        <choice id="A" pergunta="Veja! Esse terreno é bem grande! E é o seu primeiro terreno para o plantio, então, pense com cuidado sobre como prepara-lo, levando em consideração o aumento dos lucros e a eficiência no uso dos recursos?" description="Plantar no terreno todo" tooltip="Você decide que é mais fácil e rápido desmatar toda a área para ter mais lucros com a plantação." image="Pergunta_A.png">
+        <choice id="A" pergunta="Veja! Esse terreno é bem grande! E é o seu primeiro terreno para o plantio, então, pense com cuidado sobre como prepara-lo, levando em consideração o aumento dos lucros e a eficiência no uso dos recursos. O que você deseja fazer?" description="Plantar no terreno todo" tooltip="Você decide que é mais fácil e rápido desmatar toda a área para ter mais lucros com a plantação." image="Pergunta_A.png">
             <level2>
                 <choice id="A1" pergunta="Agora é hora de preparar o solo para o plantio, essa é uma parte muito importante para os seus rendimentos, escolha entre plantio direto ou arar o solo antes de plantar. Qual será sua decisão?" description="Plantio direto" tooltip="Você opta pelo método de plantio direto, visando a conservação do solo e a redução da erosão." image="Pergunta_A1.png">
                     <level3>
