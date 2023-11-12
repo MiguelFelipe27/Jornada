@@ -1,4 +1,4 @@
-<story title="Raízes da Terra: O Renascimento do Campo">
+<story title="ECOFARM">
     <subtitulo>
         Storyboard interativo orientado à Agroecologia
     </subtitulo>
@@ -20,7 +20,7 @@
                                             <level6>
                                                 <choice id="A1E1" pergunta="Além da onda de calor que estamos enfrentando, começaram a aparecer pragas na suas plantação, mas, há boatos de que um novo pesticida sintético promete erradicar todas elas. O que você deseja fazer?" description="Usar o novo pesticida" tooltip="Você decidirá usar o novo pesticida sintético para erradicar as pragas e proteger sua plantação, em contra partida, ele não trás benefícios ao meio ambiente." image="Pergunta_A1E1.png">
                                                     <level7>
-                                                        <resultado id="A1F1" resposta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E2" description="Explorar alternativas" tooltip="Você optará por explorar alternativas mais ecológicas para controlar a praga, mesmo que isso exija mais pesquisa e esforço.">

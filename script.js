@@ -34,7 +34,7 @@ function displayHistoria(node)
     const choicesDiv  = document.getElementById('choices');
     const imagemDiv   = document.getElementById('imagem');
     const perguntaDiv = document.getElementById('perguntas');
-    const resultadohtm = document.getElementById('resultado');
+    const resultadohtm = document.getElementById('perguntas');
     
     perguntaDiv.innerHTML = ''; // Limpa escolhas anteriores
     imagemDiv.innerHTML   = ''; // Limpa escolhas anteriores
@@ -84,7 +84,7 @@ function displayHistoria(node)
         const result = document.createElement('string');
         const imagem    = document.createElement('img');
 
-        result.textContent  = resultado.getAttribute('resposta');
+        result.textContent  = resultado.getAttribute('pergunta');
         const CaminhoImage = resultado.getAttribute('image');
         if (CaminhoImage) {
             imagem.src = CaminhoImage;

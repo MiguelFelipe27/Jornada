@@ -1,37 +1,81 @@
-body
-{
-    text-align: center;
+body {
     background-color: aliceblue;
 }
 
-#story-container
-{
-    font-family: Arial, Helvetica, sans-serif;
+#story-container {
+    font-family: 'Montserrat', sans-serif;
     background: white;
-    padding: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;    
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-top: 12px;
+    margin-left: 300px;
+    margin-right: 850px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
 }
 
-#title
+#introduction
 {
-    font-size: 50px;
+    text-align: justify;
+    margin-bottom: 37px;
 }
 
-#subtitulo
-{
+#bg {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 0;
+}
+
+#title {
+    font-size: 82px;
+    color: rgb(22, 109, 0);
+    font-weight: bolder;
+}
+
+#subtitulo {
+    margin-top: -50px;
     font-size: 40px;
+    color: rgb(22, 109, 0);
 }
 
-html
-{
+html {
     scroll-behavior: smooth;
 }
 
-#choices
-{
+#choices {
     margin-top: 20px;
+    text-align: center;
+}
+
+#historia {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 150px;
+}
+
+#perguntas {
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: font-size 0.5s; /* Adiciona a transição para todas as mudanças de font-size com duração de 0.5 segundos */
+}
+
+#perguntas:hover {
+    font-size: 40px;
+}
+
+/* Reverte as mudanças feitas durante o hover quando o mouse sai */
+#perguntas:not(:hover) {
+    font-size: 18px; /* Substitua 16px pelo tamanho de fonte original desejado */
 }
 
 button {
@@ -39,20 +83,23 @@ button {
     margin-right: 10px;
     margin-top: 10px;
     border: none;
-    background-color: rgb(0, 105, 0);
+    
+    background-color: #0056b3;
     color: #fff;
     border-radius: 30px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
+    transition: font-size 0.5s; /* Adicionando a transição aqui */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: rgb(0, 105, 0);
+    font-size: 25px;
+    padding: 20px 25px;
 }
 
 img {
-    max-width: 1000px;  /* Define um tamanho máximo para a imagem */
-    /*border-radius: 8px;  /* Arredonda os cantos da imagem */
-    /*box-shadow: 2px 2px 12px rgba(0,0,0,0.1);  /* Adiciona uma leve sombra à imagem */
+    max-width: 1000px;
 }
+
