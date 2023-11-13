@@ -297,7 +297,7 @@
             <level2>
                 <choice id="B1" pergunta="Uma ONG oferece assistência técnica para implementar práticas de agricultura sustentável em sua fazenda. Como você aborda essa oferta?" description="Aceitar assistência técnica" tooltip="Você decide aceitar a assistência técnica da ONG para implementar práticas de agricultura sustentável, mesmo que isso exija tempo e adaptações na fazenda." image="Pergunta_B1.png">
                     <level3>
-                        <choice id="B1B1" pergunta="Você percebe que há um aumento na demanda por produtos orgânicos. O que você decide fazer?" description="Utilizar práticas orgânicos" tooltip="Você opta pela agricultura orgânica, seguindo as práticas mais sustentáveis, mesmo que isso leve tempo e recursos." image="Pergunta_B1B1.png">
+                        <choice id="B1B1" pergunta="Você percebe que há um aumento na demanda por produtos orgânicos. O que você decide fazer?" description="Utilizar práticas orgânicas" tooltip="Você opta pela agricultura orgânica, seguindo as práticas mais sustentáveis, mesmo que isso leve tempo e recursos." image="Pergunta_B1B1.png">
                             <level4>
                                 <choice id="B1C1" pergunta="Um fornecedor oferece sementes geneticamente modificadas para aumentar a produtividade. Como você aborda essa oferta?" description="Sementes geneticamente modificadas" tooltip="Você decide usar as sementes geneticamente modificadas para aumentar a produtividade imediatamente." image="Pergunta_B1C1.png">
                                     <level5>
