@@ -20,12 +20,12 @@
                                             <level6>
                                                 <choice id="A1E1" pergunta="Além da onda de calor que estamos enfrentando, começaram a aparecer pragas na suas plantação, mas, há boatos de que um novo pesticida sintético promete erradicar todas elas. O que você deseja fazer?" description="Usar o novo pesticida" tooltip="Você decidirá usar o novo pesticida sintético para erradicar as pragas e proteger sua plantação, em contra partida, ele não trás benefícios ao meio ambiente." image="Pergunta_A1E1.png">
                                                     <level7>
-                                                        <resultado id="A1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F1" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E2" description="Explorar alternativas" tooltip="Você optará por explorar alternativas mais ecológicas para controlar a praga, mesmo que isso exija mais pesquisa e esforço.">
                                                     <level7>
-                                                        <resultado id="A1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F2" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -34,12 +34,12 @@
                                             <level6>
                                                 <choice id="A1E3" pergunta="Um programa de educação ambiental percebeu a sua proatividade em participar do projeto dos ambientalistas e ofereceu recursos para conscientizar a comunidade local sobre questões ambientais. Como você aborda essa oportunidade?" description="Participar do programa de educação ambiental" tooltip="Você decidirá participar do programa para educar a comunidade local sobre questões ambientais, mesmo que isso exija tempo e recursos." image="Pergunta_A1E2.png">
                                                     <level7>
-                                                        <resultado id="A1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F1" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E4" description="Não participar do programa" tooltip="Você optará por não participar do programa, priorizando suas atividades agrícolas.">
                                                     <level7>
-                                                        <resultado id="A1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F2" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -52,12 +52,12 @@
                                             <level6>
                                                 <choice id="A1E5" pergunta="Naturalmente, sua fazenda está gerando um grande volume de resíduos. Você ouviu dizer que um novo sistema de manejo de resíduos agrícolas ecologicamente correto está disponível. O que você quer fazer?" description="Implementar o novo sistema" tooltip="Você decidirá investir no novo sistema de manejo de resíduos, visando a redução dos impactos ambientais, mesmo que isso tenha um custo inicial." image="Pergunta_A1E3.png">
                                                     <level7>
-                                                        <resultado id="A1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F1" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E6" description="Manter o sistema atual" tooltip="Você escolherá por continuar com o sistema atual de manejo de resíduos, considerando o custo e a complexidade do novo sistema.">
                                                     <level7>
-                                                        <resultado id="A1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F2" pergunta="Sua fazenda sofreu danos significativos devido a escolhas que não consideraram a agroecologia. A produtividade foi afetada e o equilíbrio ecológico não foi mantido. Avalie suas decisões e busque alternativas sustentáveis." image = "16.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -66,12 +66,12 @@
                                             <level6>
                                                 <choice id="A1E7" pergunta="Veja! Os insetos foram eliminados e sua plantação está quase em época de colheita. Nesse sentido, alguns agricultores, sugerem que você invista em maquinários com tecnologias mais limpas, já outros, sugerem que você invista em máquinas movidas a combustíveis fosseis. Em qual maquinário você investirá?" description="Máquinas a combustíveis fósseis" tooltip="Você optará por máquinas agrícolas movidas a combustíveis fósseis devido à disponibilidade e ao custo mais baixo, apesar das emissões de carbono." image="Pergunta_A1E4.png">
                                                     <level7>
-                                                        <resultado id="A1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F1" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E8" description="Tecnologias mais limpas" tooltip="Você adotará tecnologias mais limpas, como tratores elétricos ou movidos a biodiesel, porém, isso envolverá custos mais altos.">
                                                     <level7>
-                                                        <resultado id="A1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F2" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -88,12 +88,12 @@
                                             <level6>
                                                 <choice id="A1E9" pergunta="Você precisa decidir como lidar com os resíduos que estão sendo gerados pela fazenda. Como você aborda essa questão?" description="Descarte convencional" tooltip="Você escolhe descartar as embalagens de fertilizantes e pesticidas de forma convencional, sem considerar a reciclagem ou reutilização." image="Pergunta_A1E5.png">
                                                     <level7>
-                                                        <resultado id="A1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F1" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E10" description="Reciclagem e reutilização" tooltip="Você decide implementar práticas de reciclagem e reutilização das embalagens, visando a redução do impacto ambiental.">
                                                     <level7>
-                                                        <resultado id="A1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F2" pergunta="Sua fazenda foi bem-sucedida graças às escolhas ecológicas e sustentáveis que você fez. Suas plantações prosperam e sua fazenda se destaca na região. Parabéns por contribuir para o meio ambiente." image = "83.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -102,12 +102,12 @@
                                             <level6>
                                                 <choice id="A1E11" pergunta="Você escolheu usar pesticidas químicos para controlar as pragas, e sua colheita está livre delas, mas você percebeu que isso gerou a contaminação do solo e da água na área. Como você lidará com essa situação?" description="Investir em medidas de descontaminação" tooltip="Você investirá em medidas para descontaminar o solo e a água na área, buscando minimizar os impactos no meio ambiente, porém isso terá um alto investimento." image="Pergunta_A1E6.png">
                                                     <level7>
-                                                        <resultado id="A1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F1" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E12" description="Continuar como está" tooltip="Você optará por ignorar a contaminação e continuar com suas práticas atuais, mesmo sabendo dos impactos ambientais, já que qualquer investimento teria um alto custo.">
                                                     <level7>
-                                                        <resultado id="A1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F2" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -120,12 +120,12 @@
                                             <level6>
                                                 <choice id="A1E13" pergunta="Você ficou sabendo que a poluição da água na sua área está afetando os cursos d'água próximos à fazenda. Como você aborda essa questão?" description="Ignorar a poluição da água" tooltip="Você escolherá ignorar a poluição da água e continuará usando a água local, mesmo sabendo dos riscos para a saúde." image="Pergunta_A1E7.png">
                                                     <level7>
-                                                        <resultado id="A1F13" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F13" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E14" description="Racionamento" tooltip="Você implementará um racionamento rigoroso de água para preservar os recursos hídricos, mesmo que isso reduza a produção.">
                                                     <level7>
-                                                        <resultado id="A1F14" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F14" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -134,12 +134,12 @@
                                             <level6>
                                                 <choice id="A1E15" pergunta="Você precisa tomar uma decisão para alavancar sua plantação, para isso, usará fertilizantes, porém, as opções são, fertilizantes químicos de alta concentração ou fertilizantes orgânicos de baixa concentração. Qual será sua escolha?" description="Fertilizantes químicos de alta concentração" tooltip="Você decidirá por fertilizantes químicos de alta concentração para obter maiores rendimentos, mesmo sabendo dos riscos ambientais associados." image="Pergunta_A1E8.png">
                                                     <level7>
-                                                        <resultado id="A1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F1" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A1E16" description="Fertilizantes orgânicos de baixa concentração" tooltip="Você optará por fertilizantes orgânicos de baixa concentração, priorizando a saúde do solo e a sustentabilidade, mesmo que os rendimentos sejam um pouco menores.">
                                                     <level7>
-                                                        <resultado id="A1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A1F2" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -160,12 +160,12 @@
                                             <level6>
                                                 <choice id="A2E1" pergunta="Qual estratégia você planeja estratégia para garantir o melhor crescimento da plantação?" description="Fertilizantes químicos de alta concentração" tooltip="Você decidirá por fertilizantes químicos de alta concentração para obter maiores rendimentos, mesmo sabendo dos riscos ambientais associados." image="Pergunta_A1E9.png">
                                                     <level7>
-                                                        <resultado id="A2F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F1" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A2E2" description="Fertilizantes orgânicos de baixa concentração" tooltip="Você optará por fertilizantes orgânicos de baixa concentração, priorizando a saúde do solo e a sustentabilidade, mesmo que os rendimentos sejam um pouco menores.">
                                                     <level7>
-                                                        <resultado id="A2F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F2" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -174,12 +174,12 @@
                                             <level6>
                                                 <choice id="A2E3" pergunta="O programa deu certo, e vendo sua empenho e engajamento com o projeto, apresentaram uma nova proposta para você, ofereceram recursos para que você pudesse ajudar a conscientizar as comunidades locais sobre questões ambientais. Como você aborda essa oportunidade?" description="Participar do programa de educação ambiental" tooltip="Você decidirá participar do programa para educar a comunidade local sobre questões ambientais, mesmo que isso exija tempo e recursos." image="Pergunta_A1E10.png">
                                                     <level7>
-                                                        <resultado id="A2F3" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F3" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A2E4" description="Não participar do programa" tooltip="Você optará por não participar do programa, priorizando suas atividades agrícolas.">
                                                     <level7>
-                                                        <resultado id="A2F4" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F4" pergunta="Sua fazenda sofreu danos significativos devido a escolhas que não consideraram a agroecologia. A produtividade foi afetada e o equilíbrio ecológico não foi mantido. Avalie suas decisões e busque alternativas sustentáveis." image = "16.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -192,12 +192,12 @@
                                             <level6>
                                                 <choice id="A2E5" pergunta="Vendo seu comprometimento com as boa práticas agricolas, um programa de conservação da vida selvagem entrou em contato e está oferecendo incentivos para criar habitats naturais na sua fazenda. O que você fará?" description="Participar do programa" tooltip="Você decidirá por criar habitats naturais em sua fazenda para apoiar a vida selvagem, porém, isso implicará em algumas restrições na produção." image="Pergunta_A1E11.png">
                                                     <level7>
-                                                        <resultado id="A2F5" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F5" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A2E6" description="Não participar do programa" tooltip="Você escolherá por não participar do programa, priorizando a produção agrícola.">
                                                     <level7>
-                                                        <resultado id="A2F6" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F6" pergunta="Sua fazenda sofreu danos significativos devido a escolhas que não consideraram a agroecologia. A produtividade foi afetada e o equilíbrio ecológico não foi mantido. Avalie suas decisões e busque alternativas sustentáveis." image = "16.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -206,12 +206,12 @@
                                             <level6>
                                                 <choice id="A2E7" pergunta="Vendo que sua fazenda perdeu a vegetação nativa, um programa de preservação da biodiversidade oferece incentivos para criar áreas de proteção ambiental em sua fazenda. O que você fará em relação a essa proposta?" description="Criar áreas de proteção ambiental" tooltip="Você criará áreas de proteção ambiental em sua fazenda para preservar a biodiversidade e, assim, auxiliar no controle de pragas, mesmo que isso restrinja parte das terras agrícolas." image="Pergunta_A1E12.png">
                                                     <level7>
-                                                        <resultado id="A2F7" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F7" pergunta="Sua fazenda sofreu danos significativos devido a escolhas que não consideraram a agroecologia. A produtividade foi afetada e o equilíbrio ecológico não foi mantido. Avalie suas decisões e busque alternativas sustentáveis." image = "16.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A2E8" description="Não criar áreas de proteção" tooltip="Você optará por não criar áreas de proteção, priorizando a produção agrícola em toda a extensão da fazenda, mesmo que isso continue prejudicando a biodiversidade.">
                                                     <level7>
-                                                        <resultado id="A2F8" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F8" pergunta="Sua fazenda enfrentou sérios desafios. As pragas devastaram suas plantações devido às escolhas não sustentáveis que foram feitas. É importante repensar suas práticas para proteger suas plantações e o meio ambiente." image = "0.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -228,12 +228,12 @@
                                             <level6>
                                                 <choice id="A2E9" pergunta="Os biodigestores estão funcionando bem e estão fazendo você economizar mais energia. Empolgado com essa economia, está pensando em implementar placas solares. O que você fará?" description="Implementar placas solares" tooltip="Você investirá em um sistema de energia solar, reduzindo os custos de energia, porém, o solo será desgastado e não será mais possível plantar nele." image="Pergunta_A1E13.png">
                                                     <level7>
-                                                        <resultado id="A2F9" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F9" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A2E10" description="Não implementar placas solares" tooltip="Você não investirá em energia solar e continuará usando energia convencional, devido ao custo inicial elevado e ao degaste que provoca no solo.">
                                                     <level7>
-                                                        <resultado id="A2F10" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F10" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -242,12 +242,12 @@
                                             <level6>
                                                 <choice id="A2E11" pergunta="Recusando a oferta você teve mais tempo para se dedicar a plantação, percebendo que ela não está se desenvolvendo tão bem e decide usar fertilizantes, qual você usará, fertilizantes químicos de alta concentração ou fertilizantes orgânicos de baixa concentração?" description="Fertilizantes químicos de alta concentração" tooltip="Você decidirá por fertilizantes químicos de alta concentração para obter maiores rendimentos, mesmo sabendo dos riscos ambientais associados." image="Pergunta_A1E14.png">
                                                     <level7>
-                                                        <resultado id="A2F11" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F11" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A2E12" description="Fertilizantes orgânicos de baixa concentração" tooltip="Você optará por fertilizantes orgânicos de baixa concentração, priorizando a saúde do solo e a sustentabilidade, mesmo que os rendimentos sejam um pouco menores.">
                                                     <level7>
-                                                        <resultado id="A2F12" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F12" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -260,12 +260,12 @@
                                             <level6>
                                                 <choice id="A2E13" pergunta="Vendo que sua fazenda perdeu a vegetação nativa, um programa de preservação da biodiversidade oferece incentivos para criar áreas de proteção ambiental em sua fazenda. O que você fará em relação a essa proposta?" description="Criar áreas de proteção ambiental" tooltip=" Você criará áreas de proteção ambiental em sua fazenda para preservar a biodiversidade e, assim, auxiliar no controle de pragas, mesmo que isso restrinja parte das terras agrícolas." image="Pergunta_A1E15.png">
                                                     <level7>
-                                                        <resultado id="A2F13" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F13" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A2E14" description="Não criar áreas de proteção" tooltip="Você optará por não criar áreas de proteção, priorizando a produção agrícola em toda a extensão da fazenda, mesmo que isso continue prejudicando a biodiversidade.">
                                                     <level7>
-                                                        <resultado id="A2F14" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F14" pergunta="Sua fazenda sofreu danos significativos devido a escolhas que não consideraram a agroecologia. A produtividade foi afetada e o equilíbrio ecológico não foi mantido. Avalie suas decisões e busque alternativas sustentáveis." image = "16.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -274,12 +274,12 @@
                                             <level6>
                                                 <choice id="A2E15" pergunta="Você percebe que a expansão inicial da área de produção está levando à degradação de áreas naturais próximas à sua fazenda. Diante disso, o que você fará?" description="Reflorestar uma parte" tooltip="Você decidirá reflorestar uma parte da fazenda, assim, estará diminuindo os danos causados." image="Pergunta_A1E16.png">
                                                     <level7>
-                                                        <resultado id="A2F15" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F15" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="A2E16" description="Esperar a colheita" tooltip="Você optará por esperar até a primeira colheita, para não perder a boa parte dos lucros, mesmo que isso cause danos ambientais e a seus vizinhos.">
                                                     <level7>
-                                                        <resultado id="A2F16" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="A2F16" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -305,12 +305,12 @@
                                             <level6>
                                                 <choice id="B1E1" pergunta="Você precisa decidir como lidar com os resíduos de embalagens de fertilizantes e pesticidas. Como você aborda essa questão?" description="Descarte convencional" tooltip="Você escolhe descartar as embalagens de fertilizantes e pesticidas de forma convencional, sem considerar a reciclagem ou reutilização." image="Pergunta_B1E1.png">
                                                     <level7>
-                                                        <resultado id="B1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F1" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados" image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B1E2" description="Reciclagem e reutilização" tooltip="Você decide implementar práticas de reciclagem e reutilização das embalagens, visando a redução do impacto ambiental.">
                                                     <level7>
-                                                        <resultado id="B1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F2" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -319,12 +319,12 @@
                                             <level6>
                                                 <choice id="B1E3" pergunta="Está prevista uma onda de calor para a próxima semana. Como você planeja sua estratégia de plantio de milho para garantir o melhor crescimento da cultura, levando em consideração a ameaça da onda de calor?" description="Aumentar frequência de irrigação" tooltip="Você aumentaria a frequência de irrigação para manter o solo úmido durante a onda de calor." image="Pergunta_B1E2.png">
                                                     <level7>
-                                                        <resultado id="B1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F1" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B1E4" description="Fertilizantes de liberação lenta" tooltip="Você aplicaria fertilizantes de liberação lenta para ajudar as plantas a resistirem ao estresse térmico da onda de calor?">
                                                     <level7>
-                                                        <resultado id="B1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F2" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -337,12 +337,12 @@
                                             <level6>
                                                 <choice id="B1E5" pergunta="Existem algumas pragas que estão afetando a plantação. Qual abordagem você utilizará?" description="Usar plantas repelentes" tooltip="Você implementará plantas repelentes, que possam eliminar as pragas, evitando o uso de produtos químicos." image="Pergunta_B1E3.png">
                                                     <level7>
-                                                        <resultado id="B1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F1" pergunta="Sua fazenda foi bem-sucedida graças às escolhas ecológicas e sustentáveis que você fez. Suas plantações prosperam e sua fazenda se destaca na região. Parabéns por contribuir para o meio ambiente." image = "83.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B1E6" description="Usar pesticidas químicos" tooltip="Você optará por usar pesticidas químicos para eliminar as pragas e proteger suas plantações, apesar dos possíveis impactos ao meio ambiente.">
                                                     <level7>
-                                                        <resultado id="B1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F2" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -351,12 +351,12 @@
                                             <level6>
                                                 <choice id="B1E7" pergunta="Um programa de restauração de áreas úmidas oferece incentivos para criar áreas de conservação aquática em sua fazenda. Como você aborda essa oportunidade?" description="Criar áreas de conservação aquática" tooltip="Você decide criar áreas de conservação aquática em sua fazenda, contribuindo para a preservação de ecossistemas aquáticos, mesmo que isso restrinja parte das terras agrícolas." image="Pergunta_B1E4.png">
                                                     <level7>
-                                                        <resultado id="B1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F1" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B1E8" description="Não criar áreas de conservação" tooltip="Você opta por não criar áreas de conservação, priorizando a produção agrícola sobre a conservação ambiental.">
                                                     <level7>
-                                                        <resultado id="B1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F2" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -373,12 +373,12 @@
                                             <level6>
                                                 <choice id="B1E9" pergunta="A expansão do terreno eliminou a área de cobertura vegetal e com o aumento das chuvas você percebe que a erosão do solo está se agravando. Como você aborda essa questão?" description="Manter práticas atuais" tooltip="Você decide continuar com as práticas agrícolas atuais, mesmo que isso aumente o risco de erosão." image="Pergunta_B1E5.png">
                                                     <level7>
-                                                        <resultado id="B1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F1" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B1E10" description="Implementar medidas de controle de erosão" tooltip="Você opta por implementar medidas de controle de erosão, como terraços e plantio em nível, visando a conservação do solo, mesmo que isso demande tempo e recursos.">
                                                     <level7>
-                                                        <resultado id="B1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F2" pergunta="Sua fazenda foi bem-sucedida graças às escolhas ecológicas e sustentáveis que você fez. Suas plantações prosperam e sua fazenda se destaca na região. Parabéns por contribuir para o meio ambiente." image = "83.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -387,12 +387,12 @@
                                             <level6>
                                                 <choice id="B1E11" pergunta="Existem algumas pragas que estão afetando a plantação. Qual abordagem você utilizará?" description="Usar plantas repelentes" tooltip="Você implementará plantas repelentes, que possam eliminar as pragas, evitando o uso de produtos químicos." image="Pergunta_B1E6.png">
                                                     <level7>
-                                                        <resultado id="B1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F1" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B1E12" description="Usar pesticidas químicos" tooltip="Você optará por usar pesticidas químicos para eliminar as pragas e proteger suas plantações, apesar dos possíveis impactos ao meio ambiente.">
                                                     <level7>
-                                                        <resultado id="B1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F2" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -405,12 +405,12 @@
                                             <level6>
                                                 <choice id="B1E13" pergunta="Um novo sistema de irrigação por gotejamento de alta eficiência está disponível no mercado. Como você decide se deve investir nessa tecnologia?" description="Investir no sistema de irrigação por gotejamento" tooltip="Você decide investir no novo sistema de irrigação por gotejamento de alta eficiência para economizar água e aumentar a eficiência, mesmo que isso tenha um custo inicial mais elevado." image="Pergunta_B1E7.png">
                                                     <level7>
-                                                        <resultado id="B1F13" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F13" pergunta="Sua fazenda é um exemplo brilhante de agroecologia. Suas práticas sustentáveis resultaram em uma fazenda próspera, com plantações saudáveis e um impacto positivo no meio ambiente. Você é um verdadeiro guardião da natureza." image = "100.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B1E14" description="Manter sistema atual" tooltip=" Você opta por continuar com o sistema de irrigação atual, considerando o alto custo do novo sistema e seus impactos financeiros.">
                                                     <level7>
-                                                        <resultado id="B1F14" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F14" pergunta="Sua fazenda foi bem-sucedida graças às escolhas ecológicas e sustentáveis que você fez. Suas plantações prosperam e sua fazenda se destaca na região. Parabéns por contribuir para o meio ambiente." image = "83.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -419,12 +419,12 @@
                                             <level6>
                                                 <choice id="B1E15" pergunta="Um projeto de energia solar oferece a oportunidade de instalar painéis solares em sua fazenda. Como você aborda essa decisão?" description="Instalar painéis solares" tooltip="Você decide instalar painéis solares para gerar energia renovável, reduzir os custos de energia e diminuir a pegada de carbono da fazenda, mesmo que isso tenha um custo inicial mais elevado." image="Pergunta_B1E8.png">
                                                     <level7>
-                                                        <resultado id="B1F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F1" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B1E16" description="Não instalar painéis solares" tooltip="Você opta por não instalar painéis solares, considerando o investimento inicial alto ou outras preocupações que possam ter prioridade sobre a energia solar.">
                                                     <level7>
-                                                        <resultado id="B1F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B1F2" pergunta="Sua fazenda foi bem-sucedida graças às escolhas ecológicas e sustentáveis que você fez. Suas plantações prosperam e sua fazenda se destaca na região. Parabéns por contribuir para o meio ambiente." image = "83.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -445,12 +445,12 @@
                                             <level6>
                                                 <choice id="B2E1" pergunta="Um programa de educação ambiental oferece recursos para conscientizar os jovens da comunidade sobre a importância da agricultura sustentável. Como você aborda essa oportunidade?" description="Participar do programa" tooltip="Você decide participar do programa para educar os jovens da comunidade sobre práticas agrícolas sustentáveis, mesmo que isso demande tempo e recursos." image="Pergunta_B1E9.png">
                                                     <level7>
-                                                        <resultado id="B2F1" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F1" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B2E2" description="Não participar do programa" tooltip="Você opta por não participar do programa, considerando-o desnecessário ou não prioritário.">
                                                     <level7>
-                                                        <resultado id="B2F2" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F2" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -459,12 +459,12 @@
                                             <level6>
                                                 <choice id="B2E3" pergunta="Você ouvir dizer que um novo sistema de irrigação de alta tecnologia está disponível no mercado. O que você fará em relação a isso?" description="Manter sistema atual" tooltip="Você opta por continuar com o sistema de irrigação atual, considerando o alto custo do novo sistema e seus impactos financeiros." image="Pergunta_B1E10.png">
                                                     <level7>
-                                                        <resultado id="B2F3" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F3" pergunta="Sua fazenda sofreu danos significativos devido a escolhas que não consideraram a agroecologia. A produtividade foi afetada e o equilíbrio ecológico não foi mantido. Avalie suas decisões e busque alternativas sustentáveis." image = "16.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B2E4" description="Investir em tecnologia" tooltip="Você decide investir no sistema de irrigação de alta tecnologia, sistema de irrigação por sensores de umidade, para aumentar a eficiência, mesmo que isso tenha um alto custo inicial.">
                                                     <level7>
-                                                        <resultado id="B2F4" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F4" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -477,12 +477,12 @@
                                             <level6>
                                                 <choice id="B2E5" pergunta="Você escolheu usar fertilizantes químicos, mas percebeu que isso gerou a contaminação do solo e da água na área. Como você lidará com essa situação?" description="Investir em medidas de descontaminação" tooltip="Você investirá em medidas para descontaminar o solo e a água na área, buscando minimizar os impactos no meio ambiente, porém isso terá um alto investimento." image="Pergunta_B1E11.png">
                                                     <level7>
-                                                        <resultado id="B2F5" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F5" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B2E6" description="Continuar como está" tooltip="Você optará por ignorar a contaminação e continuar com suas práticas atuais, mesmo sabendo dos impactos ambientais, já que qualquer investimento teria um alto custo.">
                                                     <level7>
-                                                        <resultado id="B2F6" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F6" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -491,12 +491,12 @@
                                             <level6>
                                                 <choice id="B2E7" pergunta="Um programa de conservação de recursos hídricos oferece assistência técnica para melhorar a gestão da água em sua fazenda. Como você aborda essa oferta?" description="Aceitar assistência técnica" tooltip="Você decide aceitar a assistência técnica do programa para melhorar a gestão da água em sua fazenda, mesmo que isso envolve mudanças e investimentos." image="Pergunta_B1E12.png">
                                                     <level7>
-                                                        <resultado id="B2F7" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F7" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B2E8" description="Recusar a assistência técnica" tooltip="Você opta por recusar a oferta de assistência técnica, considerando-a desnecessária e custosa.">
                                                     <level7>
-                                                        <resultado id="B2F8" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F8" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -513,12 +513,12 @@
                                             <level6>
                                                 <choice id="B2E9" pergunta="Um programa de conservação de recursos hídricos oferece assistência técnica para melhorar a gestão da água em sua fazenda. Como você aborda essa oferta?" description="Aceitar assistência técnica" tooltip="Você decide aceitar a assistência técnica do programa para melhorar a gestão da água em sua fazenda, mesmo que isso envolve mudanças e investimentos." image="Pergunta_B1E13.png">
                                                     <level7>
-                                                        <resultado id="B2F9" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F9" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B2E10" description="Recusar a assistência técnica" tooltip="Você opta por recusar a oferta de assistência técnica, considerando-a desnecessária e custosa.">
                                                     <level7>
-                                                        <resultado id="B2F10" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F10" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -527,12 +527,12 @@
                                             <level6>
                                                 <choice id="B2E11" pergunta="Em breve você fará a colheita. Nesse sentido, alguns agricultores, sugerem que você invista em maquinários com tecnologias mais limpas, já outros, sugerem que você invista em máquinas movidas a combustíveis fosseis. Em qual maquinário você investirá?" description="Máquinas a combustíveis fósseis" tooltip="Você optará por máquinas agrícolas movidas a combustíveis fósseis devido à disponibilidade e ao custo mais baixo, apesar das emissões de carbono." image="Pergunta_B1E14.png">
                                                     <level7>
-                                                        <resultado id="B2F11" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F11" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B2E12" description="Tecnologias mais limpas" tooltip="Você adotará tecnologias mais limpas, como tratores elétricos ou movidos a biodiesel, porém, isso envolverá custos mais altos.">
                                                     <level7>
-                                                        <resultado id="B2F12" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F12" pergunta="Sua fazenda foi bem-sucedida graças às escolhas ecológicas e sustentáveis que você fez. Suas plantações prosperam e sua fazenda se destaca na região. Parabéns por contribuir para o meio ambiente." image = "83.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -545,12 +545,12 @@
                                             <level6>
                                                 <choice id="B2E13" pergunta="Um programa de reciclagem de resíduos agrícolas oferece assistência para transformar resíduos em fertilizantes orgânicos. Como você aborda essa oferta?" description="Participar do programa de reciclagem" tooltip="Você decide participar do programa para reciclar resíduos agrícolas em fertilizantes orgânicos, mesmo que isso envolva esforço adicional." image="Pergunta_B1E15.png">
                                                     <level7>
-                                                        <resultado id="B2F13" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F13" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados." image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B2E14" description="Não participar do programa" tooltip="Você opta por não participar do programa de reciclagem, considerando-o desnecessário ou complexo.">
                                                     <level7>
-                                                        <resultado id="B2F14" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F14" pergunta="Sua fazenda teve um desempenho intermediário. Houve esforços para incorporar práticas ecológicas, mas ainda há espaço para melhorias. Continue a aprender sobre agroecologia para obter melhores resultados." image = "33.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
@@ -559,12 +559,12 @@
                                             <level6>
                                                 <choice id="B2E15" pergunta="Em uma comunidade agrícola, os agricultores estão debatendo como tornar a agricultura mais atraente para os jovens. Alguns propõem hackathons agrícolas que incentivam a inovação e o empreendedorismo, enquanto outros sugerem a criação de escolas ao ar livre onde os jovens aprendem sobre agricultura diretamente na fazenda. Qual dessas abordagens você acha mais criativa para envolver a próxima geração na agricultura sustentável?" description="Hackathons agrícolas inovadores" tooltip="Realizar hackathons agrícolas que desafiam os jovens a encontrar soluções criativas para os desafios da agricultura sustentável." image="Pergunta_B1E16.png">
                                                     <level7>
-                                                        <resultado id="B2F15" pergunta="resultados sem imagem" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F15" pergunta="Sua fazenda teve um desempenho positivo. Suas escolhas em relação à agroecologia geraram resultados promissores. Suas plantações estão saudáveis e o equilíbrio ecológico está sendo mantido." image = "66.png"/>
                                                     </level7>
                                                 </choice>
                                                 <choice id="B2E16" description="Escolas ao ar livre com aprendizado prático na fazenda" tooltip="Criar escolas ao ar livre onde os jovens têm a oportunidade de aprender sobre agricultura diretamente na fazenda, combinando educação prática com experiências no campo.">
                                                     <level7>
-                                                        <resultado id="B2F16" pergunta="resultado" image = "Pergunta_01.png"/>
+                                                        <resultado id="B2F16" pergunta="Sua fazenda alcançou um equilíbrio razoável entre práticas sustentáveis e não sustentáveis. Há margem para aprimoramentos e um maior foco na agroecologia pode aumentar seus resultados" image = "50.png"/>
                                                     </level7>
                                                 </choice>
                                             </level6>
