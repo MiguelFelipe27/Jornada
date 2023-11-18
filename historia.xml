@@ -559,7 +559,7 @@ Vamos juntos fazer a diferença!
                                                 </choice>
                                             </level6>
                                         </choice>
-                                        <choice id="B2D8" description="Esterco animal" tooltip="Você escolhe usar esterco animal como fertilizante, promovendo práticas mais naturais e sustentáveis, mesmo que isso demande mais trabalho." image = "Pergunta_B1D8.png">
+                                        <choice id="B2D8" description="Esterco animal" tooltip="Você escolhe usar esterco animal como fertilizante, promovendo práticas mais naturais e sustentáveis, mesmo que isso demande mais trabalho.">
                                             <level6>
                                                 <choice id="B2E15" pergunta="Muito bem! As sementes foram lançadas e já começaram a crescer. Durante esse período, em sua comunidade agrícola, os agricultores estão debatendo como tornar a agricultura mais atraente para os jovens. Alguns propõem hackathons agrícolas que incentivam a inovação e o empreendedorismo, enquanto outros sugerem não despender tempo com isso. Qual dessas abordagens você escolherá?" description="Hackathons agrícolas" tooltip="Realizar hackathons agrícolas que desafiam os jovens a encontrar soluções criativas para os desafios da agricultura sustentável." image="Pergunta_B1E16.png">
                                                     <level7>
