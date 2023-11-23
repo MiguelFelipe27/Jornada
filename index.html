@@ -23,6 +23,7 @@
   <div id="historia">
     <div id="perguntas"></div>
     <div id="imagem"></div>
+    <div><button id="iniciarLeitura">Iniciar Leitura</button></div>
     <div id="choices"></div>
     <div id="imagem_result"></div>
     <div vw class="enabled">
@@ -36,6 +37,32 @@
       new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
     <script src="//plugin.handtalk.me/web/latest/handtalk.min.js"></script>
+    <script src="https://cdn.openai.com/belt/latest/openai-belt.min.js"></script>
+
+    <script>
+    let leitorDeTela;
+
+        document.getElementById("iniciarLeitura").addEventListener("click", function () {
+            let div1Texto = obterTextoParaLeitura("perguntas");
+            let div2Texto = obterTextoParaLeitura("choices");
+            let textoParaLer = div1Texto + "\n" + div2Texto;
+            iniciarLeitura(textoParaLer);
+        });
+
+        function obterTextoParaLeitura(divId) {
+            // Aqui você pode extrair o texto de uma div específica pelo ID.
+            let div = document.getElementById(divId);
+            return div ? div.innerText : '';
+        }
+
+        function iniciarLeitura(texto) {
+            leitorDeTela = window.speechSynthesis;
+            let voz = new SpeechSynthesisUtterance(texto);
+            leitorDeTela.speak(voz);
+        }
+
+    </script>
+
   </div>
 </body>
 </html>

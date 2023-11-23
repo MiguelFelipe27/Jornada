@@ -101,3 +101,18 @@ button:hover {
 img {
     max-width: 1000px;
 }
+#iniciarLeitura
+{
+    background: blue;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 1450px;
+    right: 10px;
+    width: 150px
+}
+#iniciarLeitura:hover
+{
+    background: gray;
+    color: black;
+}
